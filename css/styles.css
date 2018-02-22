@@ -1,13 +1,12 @@
 .notes {
-    display:none;
+    display: none;
 }
 
 .panel {
-	background-color: #ddd;
+    background-color: #ddd;
 }
 
 .panel h2 {
-
 }
 
 .step h2 {
@@ -20,16 +19,15 @@
 }
 
 #title h1 {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .subtitle {
-	text-indent: 2.2em;
-	display: block;
-	font-size: 1.2em;
-	font-weight: normal;
+    text-indent: 2.2em;
+    display: block;
+    font-size: 1.2em;
+    font-weight: normal;
 }
-
 
 ol {
     counter-reset: li; /* Initiate a counter */
@@ -37,7 +35,7 @@ ol {
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
     font: 35px 'trebuchet MS', 'lucida sans';
     padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
 
 ol ol {
@@ -50,7 +48,7 @@ ul {
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
     font: 35px 'trebuchet MS', 'lucida sans';
     padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
 
 ul ul {
@@ -90,7 +88,7 @@ ul ul {
 }
 
 ul.rectangle-list span:before {
-	content: "#";
+    content: "#";
 }
 
 .rectangle-list span:after {
@@ -108,60 +106,65 @@ ul.rectangle-list span:before {
     border-left-color: #999;
 }
 
-.orange, .rectangle-list span.orange:before {
-	background-color: #8156A7;
+.orange,
+.rectangle-list span.orange:before {
+    background-color: #8156a7;
 }
 
 .rectangle-list span.orange:hover:after {
-	border-left-color: #8156A7;
+    border-left-color: #8156a7;
 }
 
-.yellow, .rectangle-list span.yellow:before {
-	background-color: #008ED5;
+.yellow,
+.rectangle-list span.yellow:before {
+    background-color: #008ed5;
 }
 
 .rectangle-list span.yellow:hover:after {
-	border-left-color: #008ED5;
+    border-left-color: #008ed5;
 }
 
-.green, .rectangle-list span.green:before {
-	background-color: #E04F4A;
+.green,
+.rectangle-list span.green:before {
+    background-color: #e04f4a;
 }
 
 .rectangle-list span.green:hover:after {
-	border-left-color: #E04F4A;
+    border-left-color: #e04f4a;
 }
 
-.blue, .rectangle-list span.blue:before {
-	background-color: #e9ac5e;
+.blue,
+.rectangle-list span.blue:before {
+    background-color: #e9ac5e;
 }
 
 .rectangle-list span.blue:hover:after {
-	border-left-color: #e9ac5e;
+    border-left-color: #e9ac5e;
 }
 
-.light, .rectangle-list span.light:before {
-	background-color: #E5E7E1;
+.light,
+.rectangle-list span.light:before {
+    background-color: #e5e7e1;
 }
 
 .rectangle-list span.light:hover:after {
-	border-left-color: #E5E7E1;
+    border-left-color: #e5e7e1;
 }
 
-.dark, .rectangle-list span.dark:before {
-	background-color: #909090;
+.dark,
+.rectangle-list span.dark:before {
+    background-color: #909090;
 }
 
 .rectangle-list span.dark:hover:after {
-	border-left-color: #909090;
+    border-left-color: #909090;
 }
-
 
 img {
     max-width: 100%;
 }
 
-[agenda], [howto] {
+[agenda] {
     width: 500px;
 }
 
